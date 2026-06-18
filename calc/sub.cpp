@@ -1,7 +1,7 @@
-#include <iostream>
+#include <cstdio>
 
 int sub(int x, int y)
 {
-	pritnf("x[ %d ]에서 y[ %d ] 값을 뺍니다.\n");
+	printf("x[ %d ]에서 y[ %d ] 값을 뺍니다.\n", x, y);
 	return x - y;
 }
