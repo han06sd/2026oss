@@ -9,6 +9,10 @@
 *.user
 *.userosscache
 *.sln.docstates
+<<<<<<< HEAD
+=======
+*.env
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -21,19 +25,49 @@ mono_crash.*
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+<<<<<<< HEAD
 x64/
 x86/
+=======
+
+[Dd]ebug/x64/
+[Dd]ebugPublic/x64/
+[Rr]elease/x64/
+[Rr]eleases/x64/
+bin/x64/
+obj/x64/
+
+[Dd]ebug/x86/
+[Dd]ebugPublic/x86/
+[Rr]elease/x86/
+[Rr]eleases/x86/
+bin/x86/
+obj/x86/
+
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 [Aa][Rr][Mm]64[Ee][Cc]/
 bld/
+<<<<<<< HEAD
 [Bb]in/
+=======
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 [Oo]bj/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
 
+<<<<<<< HEAD
+=======
+# Build results on 'Bin' directories
+**/[Bb]in/*
+# Uncomment if you have tasks that rely on *.refresh files to move binaries
+# (https://github.com/github/gitignore/pull/3736)
+#!**/[Bb]in/*.refresh
+
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
@@ -45,12 +79,22 @@ Generated\ Files/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+<<<<<<< HEAD
+=======
+*.trx
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
 
+<<<<<<< HEAD
+=======
+# Approval Tests result files
+*.received.*
+
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -63,6 +107,10 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+<<<<<<< HEAD
+=======
+.artifacts/
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -77,6 +125,10 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+<<<<<<< HEAD
+=======
+*.idb
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 *.iobj
 *.pch
 *.pdb
@@ -299,9 +351,12 @@ node_modules/
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
 
+<<<<<<< HEAD
 # Visual Studio 6 auto-generated project file (contains which files were open etc.)
 *.vbp
 
+=======
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 # Visual Studio 6 workspace and project file (working project files containing files to include in project)
 *.dsw
 *.dsp
@@ -319,6 +374,7 @@ node_modules/
 _Pvt_Extensions
 
 # Paket dependency manager
+<<<<<<< HEAD
 .paket/paket.exe
 paket-files/
 
@@ -335,6 +391,24 @@ __pycache__/
 # Cake - Uncomment if you are using it
 # tools/**
 # !tools/packages.config
+=======
+**/.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+**/.fake/
+
+# CodeRush personal settings
+**/.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+**/__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+#tools/**
+#!tools/packages.config
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # Tabs Studio
 *.tss
@@ -356,6 +430,10 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+<<<<<<< HEAD
+=======
+MSBuild_Logs/
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # AWS SAM Build and Temporary Artifacts folder
 .aws-sam
@@ -364,10 +442,17 @@ ASALocalRun/
 *.nvuser
 
 # MFractors (Xamarin productivity tool) working folder
+<<<<<<< HEAD
 .mfractor/
 
 # Local History for Visual Studio
 .localhistory/
+=======
+**/.mfractor/
+
+# Local History for Visual Studio
+**/.localhistory/
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # Visual Studio History (VSHistory) files
 .vshistory/
@@ -379,7 +464,11 @@ healthchecksdb
 MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
+<<<<<<< HEAD
 .ionide/
+=======
+**/.ionide/
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
@@ -390,17 +479,30 @@ FodyWeavers.xsd
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+<<<<<<< HEAD
 *.code-workspace
+=======
+!.vscode/*.code-snippets
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 
 # Local History for Visual Studio Code
 .history/
 
+<<<<<<< HEAD
+=======
+# Built Visual Studio Code Extensions
+*.vsix
+
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
 # Windows Installer files from build outputs
 *.cab
 *.msi
 *.msix
 *.msm
 *.msp
+<<<<<<< HEAD
 
 # JetBrains Rider
 *.sln.iml
+=======
+>>>>>>> 5ce5c272afa818d8b3ba617018f0e270e4313b0b
